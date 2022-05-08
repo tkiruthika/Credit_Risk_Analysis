@@ -20,13 +20,13 @@ Being able to predict credit risk with machine learning algorithms can help bank
     ![1](https://user-images.githubusercontent.com/95719819/166175629-5e5c2d57-6f0b-4680-82ae-fee54f286aea.png)
 
   - Undersampling - ClusterCentroids algorithm
-     - Acuuracy score - 0.6622479600626106
+     - Acuuracy score - 0.5442661782548694
      - Confusion matrix - array([[   70,    31],[10340,  6764]], dtype=int64)
      - Classification report
     ![3](https://user-images.githubusercontent.com/95719819/166175691-51c6aa63-7f19-43c9-a2c9-0a725e8c8828.png)
 
   - Combinatorial(Over-and undersampling) - SMOTEENN algorithm
-     - Acuuracy score - 0.5442661782548694
+     - Acuuracy score - 0.644711676499736
      - Confusion matrix - array([[  73,   28],[7412, 9692]], dtype=int64)
      - Classification report
     ![4](https://user-images.githubusercontent.com/95719819/166175709-9cd7df9a-4b05-418e-a888-c879602d1c0a.png)
