@@ -17,6 +17,7 @@ Being able to predict credit risk with machine learning algorithms can help bank
      - Acuuracy score - 0.6622479600626106
      - Confusion matrix - array([[   64,    37],[ 5288, 11816]], dtype=int64)
      - Classification report
+     
     ![1](https://user-images.githubusercontent.com/95719819/166175629-5e5c2d57-6f0b-4680-82ae-fee54f286aea.png)
 
   - Undersampling - ClusterCentroids algorithm
@@ -29,6 +30,7 @@ Being able to predict credit risk with machine learning algorithms can help bank
      - Acuuracy score - 0.644711676499736
      - Confusion matrix - array([[  73,   28],[7412, 9692]], dtype=int64)
      - Classification report
+     
     ![4](https://user-images.githubusercontent.com/95719819/166175709-9cd7df9a-4b05-418e-a888-c879602d1c0a.png)
 
   - Ensemble classifiers - BalancedRandomForestClassifier algorithm
@@ -44,6 +46,6 @@ Being able to predict credit risk with machine learning algorithms can help bank
   ![6](https://user-images.githubusercontent.com/95719819/166175738-69c16aec-3243-4ea7-b33e-e6c9bc1fdd5c.png)
 
 ## Summary
-In all the algorithms first we created training and target variables and the balance of the target variables are checked. Then resampling is done on training variables with the respective algorithms to calculate the accuracy score, generate a confusion matrix and print out the imbalanced classification report.
+  - The Summary of our analysis is that, in all the algorithms first we created training and target variables and the balance of the target variables are checked. Then resampling is done on training variables with the respective algorithms to calculate the accuracy score, generate a confusion matrix and print out the imbalanced classification report.
 
-Our results show that the EasyEnsembleClassifier has the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores. So, I recommend EasyEnsembleClassifier model for credit risk analysis.
+  - I recommend EasyEnsembleClassifier model for credit risk analysis because, our results show that the EasyEnsembleClassifier has the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
